@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Dead End', 'No Entry', 'Proceed Forward', 'Proceed Left', 'Proceed Right', 'Stop']
+
+roboflow:
+  workspace: augustins-workspace-mcqtw
+  project: fira-signs
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/augustins-workspace-mcqtw/fira-signs/dataset/3
